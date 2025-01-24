@@ -6,7 +6,7 @@
   "author": {
     "name": "Sergio Antozzi",
     "email": "santozzi@gmail.com"},
-    "homepage": "https://santozzi.github.io/desafioguru",
+  "homepage": "https://santozzi.github.io/desafioguru",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
