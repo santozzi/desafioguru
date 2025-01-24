@@ -22,6 +22,9 @@ const Subscribe: React.FC  = () => {
 				{!validated ?<>
 			  	<h1>subscribe</h1>
 				<form onSubmit={handleSubmit(() => {
+					
+
+
 					if (errors.email) {
 						setValidated(false);
 					} else {
@@ -30,16 +33,10 @@ const Subscribe: React.FC  = () => {
 				})}>
 					<input 
 					   style={{borderColor: errors.email && 'red'}}
-					
-					   type="email" 
-					   placeholder="Enter Your Email"
-			
-					   {...register('email', {required: true})} /> 
-				
-						
-					  
-					 
-					<ButtonPrimary title={'subscribe'}/>
+	   				   placeholder="Enter Your Email"
+					   {...register('email', {required: true} ) } />
+					{errors.email && <p className='error'>{errors.email.message?.toString()}</p>} 
+	                   <ButtonPrimary title={'subscribe'}/>
 			    </form>
 				</>
 				: <p className='subscribed'>Thank you for subscribing</p>}

@@ -88,6 +88,17 @@
     background-color: var(--highlight);
     text-align: center;
 }
+.error{
+
+    margin-top: -70px;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: 'inter', sans-serif;
+  
+
+}
 @media (min-width: 374px) {
 .form-container{
     min-width: 100%;
