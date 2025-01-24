@@ -8,7 +8,7 @@ El proyecto fue desarrollado como parte del proceso de evaluación de candidatos
 |----------|----------|----------|
 |<p align="center"><img src="https://skillicons.dev/icons?i=git" /></p>|<p align="center"><img src="https://skillicons.dev/icons?i=typescript" /></p>    |<p align="center"><img src="https://skillicons.dev/icons?i=react" /></p>|
 
-### Librerías de terceros
+### Librerías de terceros para validar el formulario
 *  ` react-hook-form: ^7.54.2`
 *    `zod: ^3.24.1 `
 
