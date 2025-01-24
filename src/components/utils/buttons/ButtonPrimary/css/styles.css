@@ -1,0 +1,21 @@
+
+    button{
+        margin:0;
+        width: 205px;
+        height: 39px;
+        padding: 9px 11.5px;
+        border-radius: 50px;
+        border:none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18.15px;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--background-dark);
+        background-color: var(--highlight);
+    }
+    button:hover{
+        background-color: var(--background-dark);
+        color: var(--highlight);
+    }

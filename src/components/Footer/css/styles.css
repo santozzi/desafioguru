@@ -1,0 +1,12 @@
+footer h3 {
+    font-family: 'Inter', sans-serif;
+ 
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 122px;
+    color: var(--text-light);
+    white-space: normal;
+}
+
