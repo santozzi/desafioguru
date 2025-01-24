@@ -21,3 +21,5 @@ El proyecto fue desarrollado como parte del proceso de evaluación de candidatos
 <img src="./src/assets/images/screensuccess.png">
 </p>
 
+### Página en github page
+* <a href="https://santozzi.github.io/desafioguru/">Link a la página</a> 
